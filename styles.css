@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+#colorName {
+    margin: 10px;
+    text-decoration: underline;
+    font-size: 48px;
+    text-align: center;
+}
+
+#colorOptions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.colorOption {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+#score,
+#time {
+    text-align: center;
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.completeGame {
+    flex-direction: column;
+    background-color: azure;
+    width: fit-content;
+    border-radius: 8px;
+}
